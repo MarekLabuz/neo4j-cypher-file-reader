@@ -1,4 +1,4 @@
-# Simple script for running a list of neo4j cypher queries
+# Simple script for running a list of Neo4j cypher queries
 
 **Usage:** npm start -- [filename] [username] [password]
 
