@@ -1,4 +1,4 @@
-match (n) delete n;
+MATCH (n) DELETE n;
 CREATE (n:Person { name: 'John' })
 CREATE (n:Person { name: 'Paul' })
 
