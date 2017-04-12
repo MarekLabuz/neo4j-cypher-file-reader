@@ -1,0 +1,21 @@
+{
+  "name": "ads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Marek Łabuz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bluebird": "^3.5.0",
+    "single-line-log": "^1.1.2"
+  }
+}

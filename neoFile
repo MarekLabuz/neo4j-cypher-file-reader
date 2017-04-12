@@ -1,0 +1,8 @@
+match (n) delete n;
+CREATE (n:Person { name: 'John' })
+CREATE (n:Person { name: 'Paul' })
+
+// Neither empty lines nor comments make a difference
+
+CREATE (n:Person { name: 'Luke' })
+MATCH (j:Person { name: 'John' }), (l:Person { name: 'Luke' }) MERGE (j)-[:LIKE]-(l)
